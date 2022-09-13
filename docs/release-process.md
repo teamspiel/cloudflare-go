@@ -8,7 +8,7 @@ be used in the other systems without a month long delay.
 If a hotfix is needed, the same process outlined below is used however only the
 semantic versioning patch version is bumped.
 
-- Ensure CI is passing for [`master` branch](https://github.com/cloudflare/cloudflare-go/actions?query=branch%3Amaster).
+- Ensure CI is passing for [`master` branch](https://github.com/teamspiel/cloudflare-go/actions?query=branch%3Amaster).
 - Remove "(Unreleased)" portion from the header for the version you are intending
   to release (here, 2.27.0). Create a new H2 above for the next unreleased
   version (here 2.28.0). Example diff:
@@ -21,7 +21,7 @@ semantic versioning patch version is bumped.
 
   NOTES:
 
-  * dependency: Update foo to v0.0.2 ([#1184](https://github.com/cloudflare/cloudflare-go/issues/123))
+  * dependency: Update foo to v0.0.2 ([#1184](https://github.com/teamspiel/cloudflare-go/issues/123))
   ```
 
   Bumping the minor version is usually fine here unless you are intending on

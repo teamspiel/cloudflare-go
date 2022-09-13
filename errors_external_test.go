@@ -3,8 +3,8 @@ package cloudflare_test
 import (
 	"testing"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
 	"github.com/stretchr/testify/assert"
+	cloudflare "github.com/teamspiel/cloudflare-go"
 )
 
 func TestError_CreateErrors(t *testing.T) {

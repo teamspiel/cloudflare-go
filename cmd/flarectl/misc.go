@@ -9,8 +9,8 @@ import (
 
 	"errors"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
 	"github.com/olekukonko/tablewriter"
+	cloudflare "github.com/teamspiel/cloudflare-go"
 	"github.com/urfave/cli/v2"
 )
 

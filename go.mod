@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflare-go
+module github.com/teamspiel/cloudflare-go
 
 go 1.17
 

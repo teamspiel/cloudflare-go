@@ -1,9 +1,9 @@
-module github.com/cloudflare/cloudflare-go/internal/tools
+module github.com/teamspiel/cloudflare-go/internal/tools
 
 go 1.18
 
 require (
-	github.com/cloudflare/cloudflare-go v0.48.0
+	github.com/teamspiel/cloudflare-go v0.48.0
 	github.com/cweill/gotests v1.6.0
 	github.com/go-delve/delve v1.9.0
 	github.com/golangci/golangci-lint v1.48.0

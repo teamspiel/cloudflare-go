@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
+	cloudflare "github.com/teamspiel/cloudflare-go"
 )
 
 func ExampleAPI_ListZoneLockdowns_all() {
